@@ -1,5 +1,23 @@
-tools/ffmpeg*/
-ffmpeg-*/
+# Python environment
 .venv/
-data/
+venv/
+
+# FFmpeg
+ffmpeg-9.0.2-essentials_build/
+
+# Audio dataset
+Quranic-Word-By-Word-Audio-Data/
+
+# Python cache
 __pycache__/
+*.py[cod]
+
+# Generated results
+results/*.wav
+results/*.mp3
+results/*.csv
+results/*.png
+
+# IDE
+.vscode/
+.idea/

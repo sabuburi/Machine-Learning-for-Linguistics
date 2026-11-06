@@ -1,0 +1,24 @@
+
+- Read PROJECT_BRIEF.md first. Items marked TO CONFIRM are unknown ask me, do not guess.
+- If something is unverified (reciter identity, text-to-audio word mapping, formant accuracy), say so in your output.
+- Never invent results, file contents, or library behavior. If a command fails, show the error and stop.
+
+## Safety
+- Never modify or delete anything in data/. Write outputs only to results/ and scripts/.
+- Ask before installing packages, downloading large files, or running anything over ~5 minutes.
+- Before editing an existing file, tell me which file and why.
+
+## Method
+- Python only (plus Praat via parselmouth if needed). Fixed random seeds. Scripts must be re-runnable.
+- Always split train/test by surah (GroupKFold), never randomly by clip, word, or vowel.
+- Always report a majority baseline and a duration-only baseline next to any model.
+- Compare the same word (same SURAH_AYAH_WORD) across styles. Derive style from the folder name.
+- Log every excluded item with a reason and a count.
+
+## Framing
+- Descriptive phonetics only. Do not rank styles or reciters or make religious judgments.
+
+## Working style
+- Work one phase at a time. At the end of each phase, write a short summary to results/phase_N.md
+  (what was done, numbers, problems, open questions) and stop.
+- Prefer small scripts with clear names (01_data_audit.py, 02_text_mapping.py, ...).
