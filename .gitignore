@@ -1,0 +1,5 @@
+tools/ffmpeg*/
+ffmpeg-*/
+.venv/
+data/
+__pycache__/
