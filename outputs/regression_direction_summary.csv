@@ -1,0 +1,9 @@
+metric,direction,n,significant
+Average_Entropy,Negative,1,1
+Average_Surprisal,Negative,1,1
+First_Entropy,Positive,1,1
+First_Surprisal,Negative,1,1
+Last_Entropy,Negative,1,1
+Last_Surprisal,Negative,1,1
+Max_Entropy,Positive,1,1
+Max_Surprisal,Positive,1,1
