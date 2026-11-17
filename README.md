@@ -1,8 +1,5 @@
 # Average surprisal as a predictor of word frequency and length in Arabic
 
-Final report for *Machine Learning for Linguistics*. **Due: 24 November 2026.**
-Team: [name A] (analysis and code), [name B] (research and checking).
-
 ## Summary
 For about 30,000 Arabic words we have a phoneme-level predictability measure: **average surprisal**
 (how unexpected each next sound is, averaged over the word). We ask whether this measure predicts
@@ -109,15 +106,6 @@ surprisal = -log2 P; entropy of a phoneme = entropy of its next-phoneme distribu
 - Mahowald, Dautriche, Gibson & Piantadosi (2018), "Word forms are structured for efficient use", Cognitive Science.
 - Vitevitch & Luce (1999), "Probabilistic phonotactics and neighborhood activation in spoken word recognition", Journal of Memory and Language.
 - McCarthy (1981), "A prosodic theory of nonconcatenative morphology", Linguistic Inquiry (Arabic root-and-pattern morphology).
-
-## Timeline
-| Date | Goal |
-|---|---|
-| Nov 17-18 | Confirm the topic and the questions below with the professor; fix the tokenization |
-| Nov 19-20 | Recompute metrics, fit models |
-| Nov 21 | Figures and tables; freeze results |
-| Nov 22-23 | Write and proofread |
-| Nov 24 | Submit |
 
 ## Open questions for the professor
 1. Is predicting frequency and `n_phon` from average surprisal the intended analysis?
