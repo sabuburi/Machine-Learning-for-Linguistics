@@ -5,8 +5,10 @@ venv/
 # FFmpeg
 ffmpeg-9.0.2-essentials_build/
 
-# Audio dataset
+# dataset
 Quranic-Word-By-Word-Audio-Data/
+data/
+outputs/
 
 # Python cache
 __pycache__/
