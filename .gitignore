@@ -9,13 +9,16 @@ ffmpeg-9.0.2-essentials_build/
 # dataset
 Quranic-Word-By-Word-Audio-Data/
 data/
+data_raw/
 outputs/
+outputs.zip
 
 # Python cache
 __pycache__/
 *.py[cod]
 
 # Generated results
+*.log
 results/*.wav
 results/*.mp3
 results/*.csv
