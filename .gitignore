@@ -1,6 +1,7 @@
 # Python environment
 .venv/
 venv/
+.venv-new
 
 # FFmpeg
 ffmpeg-9.0.2-essentials_build/
@@ -22,4 +23,5 @@ results/*.png
 
 # IDE
 .vscode/
-.idea/
+.idea/outputs/
+Quranic-Word-By-Word-Audio-Data/
